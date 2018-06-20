@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DOS_Boat" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DOS_Boat" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DOS_Boat" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AlienSpace.cpp" />
+		<Unit filename="AlienSpace.hpp" />
+		<Unit filename="AwardSpace.cpp" />
+		<Unit filename="AwardSpace.hpp" />
+		<Unit filename="Babbage.cpp" />
+		<Unit filename="Babbage.hpp" />
+		<Unit filename="DOS_Boat_Main.cpp" />
+		<Unit filename="EndSpace.cpp" />
+		<Unit filename="EndSpace.hpp" />
+		<Unit filename="EnemySpace.cpp" />
+		<Unit filename="EnemySpace.hpp" />
+		<Unit filename="Ocean.cpp" />
+		<Unit filename="Ocean.hpp" />
+		<Unit filename="RecoverSpace.cpp" />
+		<Unit filename="RecoverSpace.hpp" />
+		<Unit filename="RequireSpace.cpp" />
+		<Unit filename="RequireSpace.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
